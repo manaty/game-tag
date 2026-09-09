@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "status": "passed",
+  "sha256": "4c4a85d4a7196baa704701e564d2ae57835745dd49eeac54641d5fbe50039c90",
+  "game": "tag",
+  "version": "1.0.0",
+  "checks": [
+    {
+      "name": "manifest-and-assets",
+      "passed": true
+    },
+    {
+      "name": "lifecycle-2-players",
+      "passed": true
+    },
+    {
+      "name": "lifecycle-8-players",
+      "passed": true
+    }
+  ],
+  "durationMs": 371,
+  "limits": {
+    "memoryMb": 24,
+    "operationMs": 40,
+    "externalPermissions": []
+  },
+  "scope": "Automated compatibility checks, not a security or gameplay certification."
+}

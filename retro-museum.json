@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "tag",
+  "version": "1.0.0",
+  "title": {
+    "en": "Tag · Catch me!",
+    "fr": "Tag · Attrape-moi !",
+    "tl": "Tag · Habulin mo ako!"
+  },
+  "description": {
+    "en": "Chase your friends across playful platform arenas. Pass on the tag before time runs out! Tanks-style phone joystick, spring pads and double jumps.",
+    "fr": "Poursuis tes amis entre les plateformes. Passe le rôle du chat avant la fin du chrono ! Joystick tactile, trampolines et doubles sauts.",
+    "tl": "Habulin ang mga kaibigan sa mga plataporma. Ipasa ang taya bago maubos ang oras! Joystick sa telepono, trampolin at dobleng talon."
+  },
+  "author": "Manaty",
+  "license": "MIT",
+  "languages": [
+    "en",
+    "fr",
+    "tl"
+  ],
+  "players": {
+    "min": 2,
+    "max": 8
+  },
+  "durationMinutes": 15,
+  "introMs": 3000,
+  "runtime": "quickjs-v1",
+  "entry": "dist/game.rmg.json",
+  "permissions": [],
+  "autoStartWhenFull": false,
+  "activityKey": "tag",
+  "options": {
+    "roundSeconds": {
+      "label": {
+        "en": "Seconds per round",
+        "fr": "Secondes par manche",
+        "tl": "Segundo bawat round"
+      },
+      "values": [
+        30,
+        45,
+        60
+      ],
+      "default": 45
+    },
+    "rounds": {
+      "label": {
+        "en": "Rounds",
+        "fr": "Manches",
+        "tl": "Mga round"
+      },
+      "values": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "default": 5
+    },
+    "arena": {
+      "label": {
+        "en": "Arena (rotation / rooftops / garden / arcade)",
+        "fr": "Arène (rotation / toits / jardin / arcade)",
+        "tl": "Arena (rotation / bubong / hardin / arcade)"
+      },
+      "values": [
+        "rotation",
+        "rooftops",
+        "garden",
+        "arcade"
+      ],
+      "default": "rotation"
+    },
+    "doubleJump": {
+      "label": {
+        "en": "Double jump",
+        "fr": "Double saut",
+        "tl": "Dobleng talon"
+      },
+      "values": [
+        true,
+        false
+      ],
+      "default": true
+    }
+  },
+  "cover": "cover.png"
+}
