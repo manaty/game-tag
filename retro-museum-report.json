@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "status": "passed",
-  "sha256": "7082670bf42bbdca8328a21912e3af2bb5257376e3e091111c45716bfd31ef34",
+  "sha256": "5b561cd9b3a01fa4e881cdfc9cda94a24aefd81af1cd34f0792023dc2d34ce44",
   "game": "tag",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "checks": [
     {
       "name": "manifest-and-assets",
@@ -18,7 +18,7 @@
       "passed": true
     }
   ],
-  "durationMs": 171,
+  "durationMs": 172,
   "limits": {
     "memoryMb": 24,
     "operationMs": 40,

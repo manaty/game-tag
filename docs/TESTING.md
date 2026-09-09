@@ -1,4 +1,4 @@
-# Tag 1.0.1 acceptance evidence
+# Tag 1.0.2 acceptance evidence
 
 The implementing agent ran the following automated checks locally. This is disclosed implementation-agent evidence, not an independent human review or a physical eight-phone network test.
 
@@ -22,3 +22,5 @@ Headless Edge/Chromium browser tests do not reproduce every phone, smart TV, pac
 The game carries no third-party art or audio. Canvas/SVG scenes and Web Audio synthesis are bundled in the portable package; gameplay does not need a CDN. SDK-supplied player avatars remain host-managed. Public acceptance evidence is tied to the exact package hash and source commit at submission.
 
 Version 1.0.1 skips collision scans for stationary grounded runners, retaining input expiry, buffered jumps and speed-pad refresh. This reduces idle validation/hosting load without changing the 60 Hz physics cadence or sandbox limits.
+
+Version 1.0.2 verifies the tagged-player badge is refreshed when leaving the lobby, even if the initial tagger matches the preview.
